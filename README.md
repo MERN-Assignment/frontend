@@ -1,4 +1,61 @@
-# Getting Started with Create React App
+# Inventory Management System
+
+A comprehensive React-based inventory management system designed for businesses to manage their products, inventory, customers, and orders efficiently. The application provides role-based access control with separate interfaces for managers and employees.
+
+## Features
+
+### 🔐 User Authentication & Authorization
+- Separate registration and login for **Managers** and **Employees**
+- JWT token-based authentication
+- Role-based access control with different permissions
+
+### 📦 Inventory Management
+- **Managers**: Full inventory oversight, product categories, and product management
+- **Employees**: Add and update inventory items with selling prices and quantities
+- Real-time inventory tracking with dates and pricing information
+
+### 🛍️ Product & Category Management
+- Create and manage product categories
+- Add new products with category assignments
+- Update existing product information
+- Product ID and name management
+
+### 👥 Customer Management
+- Add new customers to the system
+- Update existing customer information
+- Customer database for order processing
+
+### 📋 Order Management
+- Create new orders for customers
+- View comprehensive order history
+- Detailed order information and tracking
+- Order updates and modifications
+
+### 🎯 Role-Based Features
+
+#### Manager Dashboard
+- Complete inventory overview
+- Product category management
+- Customer management
+- Order history and tracking
+
+#### Employee Dashboard
+- Inventory viewing and updates
+- Customer management
+- Order creation and management
+- Inventory additions with pricing
+
+## Technology Stack
+
+- **Frontend**: React 18+ with Create React App
+- **UI Framework**: Material-UI (MUI) v5
+- **Routing**: React Router v6
+- **HTTP Client**: Axios
+- **State Management**: React Context API
+- **Authentication**: JWT tokens
+- **Styling**: CSS with Material-UI components
+
+## Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
